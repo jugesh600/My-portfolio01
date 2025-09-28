@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth transition
+body {
+  transition:  0.3s ease, color 0.3s ease;
+
+}
+
+/* Theme styles */
+/* .light {
+
+  @apply bg-gray-800
+}
+
+.dark {
+  @apply bg-gray-900  text-white
+} */ */
