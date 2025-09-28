@@ -1,6 +1,6 @@
 import React, { use, useContext, useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import { Footer } from "../../Confug/index.js";
+import { Footer } from "../../Config/index.js";
 import { HiMenu, HiX } from "react-icons/hi";
 import { ThemeContext } from "../../theme/ThemeContext.jsx";
 

@@ -8,9 +8,9 @@ import {
   Mainlayout,
   Project,
   Skills,
-} from "./Confug/index.js";
+} from "./Config/index.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ThemeContext } from "./Theme/ThemeContext.jsx";
+import { ThemeContext } from "./theme/ThemeContext.jsx";
 import { ThemeProvider } from "./Theme/ThemeProvider.jsx";
 
 function App() {
