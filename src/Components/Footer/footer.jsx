@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const footer = () => {
+const Footer = () => {
   return (
     
     <footer className=" py-10 shadow-md">
@@ -52,4 +52,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
