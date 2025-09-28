@@ -5,7 +5,7 @@ import {
   Contact,
   Footer,
   Home,
-  Mainlayout,
+  MainLayout,
   Project,
   Skills,
 } from "./Config/index.js";
@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Routes>
           {/* Main layout route */}
-          <Route path="/" element={<Mainlayout />}>
+          <Route path="/" element={<MainLayout />}>
             {/* Child routes rendered inside <Outlet /> in Mainlayout */}
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
